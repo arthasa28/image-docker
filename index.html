@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>🚀 Daftar Docker Image by Kategori</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐳</text></svg>"/>
+</head>
+<body>
+
+<h1 class="main-title">📦 Daftar Docker Image Berdasarkan Kategori</h1>
+
+<div class="category fade-in" style="--delay:0.1s" id="cat1">
+  <h2 class="category-title">⚙️ 1. Web Server & Reverse Proxy</h2>
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr><th>Image</th><th>Tag</th><th>Fungsi</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>nginx</td><td>latest</td><td>Web server & reverse proxy ringan dan cepat.</td></tr>
+        <tr><td>httpd</td><td>latest</td><td>Apache HTTP server untuk menyajikan konten web.</td></tr>
+        <tr><td>traefik</td><td>v2.10</td><td>Reverse proxy dan load balancer modern untuk microservices.</td></tr>
+        <tr><td>haproxy</td><td>2.8</td><td>Load balancer TCP/HTTP dengan performa tinggi.</td></tr>
+        <tr><td>jc21/nginx-proxy-manager</td><td>latest</td><td>UI berbasis web untuk mengelola reverse proxy Nginx.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- kategori lain sama seperti ini, hanya beda delay dan konten -->
+<div class="category fade-in" style="--delay:0.2s" id="cat2">
+  <h2 class="category-title">🗄️ 2. Database</h2>
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr><th>Image</th><th>Tag</th><th>Fungsi</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>mysql</td><td>8</td><td>Relational Database Management System (RDBMS).</td></tr>
+        <tr><td>postgres</td><td>15</td><td>SQL database kuat dengan fitur lanjutan.</td></tr>
+        <tr><td>mariadb</td><td>10.11</td><td>Fork ringan dan cepat dari MySQL.</td></tr>
+        <tr><td>mongo</td><td>6</td><td>NoSQL database berbasis dokumen (JSON).</td></tr>
+        <tr><td>redis</td><td>7</td><td>In-memory key-value store cepat.</td></tr>
+        <tr><td>memcached</td><td>latest</td><td>Sistem caching memory yang ringan.</td></tr>
+        <tr><td>cassandra</td><td>4.1</td><td>NoSQL database untuk skala besar.</td></tr>
+        <tr><td>rethinkdb</td><td>latest</td><td>NoSQL database dengan real-time changefeeds.</td></tr>
+        <tr><td>arangodb</td><td>latest</td><td>Multi-model database (graph, key-value, dokument).</td></tr>
+        <tr><td>couchdb</td><td>latest</td><td>NoSQL document store dengan sync support.</td></tr>
+        <tr><td>timescale/timescaledb</td><td>latest</td><td>PostgreSQL dengan dukungan time-series.</td></tr>
+        <tr><td>influxdb</td><td>2.7</td><td>Time-series database untuk data monitoring.</td></tr>
+        <tr><td>eventstore/eventstore</td><td>latest</td><td>Database untuk event sourcing (event-driven arch).</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- Tambahkan kategori lain serupa dengan delay meningkat bertahap -->
+
+</body>
+</html>
+
+
+<div class="category fade-in" style="--delay:0.2s" id="cat3">
+  <h2 class="category-title">📊 3. Monitoring & Logging</h2>
+  <div class="table-wrapper">
+    <table>
+    <thead>
+      <tr><th>Image</th><th>Tag</th><th>Fungsi</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>prometheus</td><td>v2.48.1</td><td>Monitoring system dan time-series database.</td></tr>
+      <tr><td>grafana</td><td>10</td><td>Visualisasi data dan dashboard analytics.</td></tr>
+      <tr><td>influxdb</td><td>2.7</td><td>Time-series DB untuk metrics dan logs.</td></tr>
+      <tr><td>telegraf</td><td>1.30</td><td>Agent untuk mengumpulkan dan mengirim metrics.</td></tr>
+      <tr><td>fluent/fluentd</td><td>latest</td><td>Log processor dan forwarder.</td></tr>
+      <tr><td>logstash</td><td>8.10.1</td><td>Log ingestion & parsing engine.</td></tr>
+      <tr><td>elasticsearch</td><td>8.10.1</td><td>Mesin pencarian dan analitik log.</td></tr>
+      <tr><td>kibana</td><td>8.10.1</td><td>Visualisasi data dari Elasticsearch.</td></tr>
+      <tr><td>glances</td><td>latest</td><td>Monitoring sistem ringan.</td></tr>
+      <tr><td>cadvisor</td><td>latest</td><td>Monitor resource container.</td></tr>
+      <tr><td>netdata</td><td>latest</td><td>Real-time sistem monitoring dengan UI.</td></tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+<div class="category fade-in" style="--delay:0.2s" id="cat4">
+  <h2 class="category-title">🔐 4. Security, VPN, Secrets</h2>
+  <div class="table-wrapper">
+    <table>
+    <thead>
+      <tr><th>Image</th><th>Tag</th><th>Fungsi</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>vault</td><td>1.14</td><td>Secret manager untuk API keys, password, dsb.</td></tr>
+      <tr><td>consul</td><td>1.16</td><td>Service discovery dan key-value store.</td></tr>
+      <tr><td>vaultwarden/server</td><td>latest</td><td>Password manager Bitwarden versi ringan.</td></tr>
+      <tr><td>linuxserver/wireguard</td><td>latest</td><td>VPN server aman dan ringan.</td></tr>
+      <tr><td>openvpn/openvpn</td><td>latest</td><td>Server VPN berbasis OpenVPN.</td></tr>
+      <tr><td>tailscale/tailscale</td><td>latest</td><td>Mesh VPN dengan auto-config.</td></tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+<div class="category fade-in" style="--delay:0.2s" id="cat5">
+  <h2 class="category-title">🧪 5. Testing & Browser Automation</h2>
+  <div class="table-wrapper">
+    <table>
+    <thead>
+      <tr><th>Image</th><th>Tag</th><th>Fungsi</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>selenium/standalone-chrome</td><td>latest</td><td>Browser Chrome untuk automation & testing.</td></tr>
+      <tr><td>browserless/chrome</td><td>latest</td><td>Headless Chrome API untuk scraping/testing.</td></tr>
+      <tr><td>playwright</td><td>latest</td><td>End-to-end testing headless browser.</td></tr>
+      <tr><td>testcontainers/ryuk</td><td>latest</td><td>Cleanup container secara otomatis.</td></tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+<div class="category fade-in" style="--delay:0.2s" id="cat6">
+  <h2 class="category-title">💻 6. Bahasa Pemrograman & Dev Base</h2>
+  <div class="table-wrapper"><table>
+    <thead>
+      <tr><th>Image</th><th>Tag</th><th>Fungsi</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>node</td><td>20</td><td>Runtime JavaScript untuk backend, apps, dsb.</td></tr>
+      <tr><td>python</td><td>3.11</td><td>Bahasa scripting populer, cocok untuk ML & tools.</td></tr>
+      <tr><td>php</td><td>8.2-apache</td><td>PHP language + Apache untuk web apps.</td></tr>
+      <tr><td>golang</td><td>1.21</td><td>Bahasa compiled modern dari Google.</td></tr>
+      <tr><td>openjdk</td><td>17</td><td>Java runtime dan dev environment.</td></tr>
+      <tr><td>alpine</td><td>3.19</td><td>Linux base image ringan untuk custom apps.</td></tr>
+      <tr><td>ubuntu</td><td>22.04</td><td>Distro populer untuk dev environments.</td></tr>
+      <tr><td>debian</td><td>12</td><td>Distro Linux stabil dan banyak digunakan.</td></tr>
+      <tr><td>centos</td><td>7</td><td>Distro enterprise Linux berbasis RHEL.</td></tr>
+      <tr><td>busybox</td><td>latest</td><td>Minimal image untuk shell, testing, dsb.</td></tr>
+      <tr><td>docker:dind</td><td>latest</td><td>Docker-in-Docker (CI/CD).</td></tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+<div class="category fade-in" style="--delay:0.2s" id="cat7">
+  <h2 class="category-title">⚙️ 7. DevOps, CI/CD & Repository</h2>
+  <div class="table-wrapper">
+    <table>
+    <thead>
+      <tr><th>Image</th><th>Tag</th><th>Fungsi</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>jenkins</td><td>lts</td><td>Server otomasi CI/CD.</td></tr>
+      <tr><td>gitlab/gitlab-ce</td><td>latest</td><td>Git server + CI/CD pipeline.</td></tr>
+      <tr><td>gitea/gitea</td><td>latest</td><td>Hosting Git ringan dan cepat.</td></tr>
+      <tr><td>ghcr.io/gitea/actions-runner</td><td>latest</td><td>Self-hosted GitHub Actions runner.</td></tr>
+      <tr><td>sonarqube</td><td>10.3</td><td>Code quality scanner untuk banyak bahasa.</td></tr>
+      <tr><td>nexus3</td><td>latest</td><td>Artifact repository (JAR, NPM, Docker, dll).</td></tr>
+      <tr><td>docker/compose</td><td>latest</td><td>CLI tool untuk menjalankan multi-container apps.</td></tr>
+      <tr><td>portainer/portainer-ce</td><td>latest</td><td>UI untuk manajemen container & images.</td></tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+<div class="category fade-in" style="--delay:0.2s" id="cat8">
+  <h2 class="category-title">🌐 8. CMS, Web Apps & Storage</h2>
+  <div class="table-wrapper">
+  <table>
+    <thead>
+      <tr><th>Image</th><th>Tag</th><th>Fungsi</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>wordpress</td><td>php8.2-apache</td><td>CMS blogging paling populer.</td></tr>
+      <tr><td>bitnami/wordpress</td><td>latest</td><td>WordPress dengan konfigurasi siap pakai.</td></tr>
+      <tr><td>ghost</td><td>latest</td><td>CMS untuk blogging modern.</td></tr>
+      <tr><td>strapi/strapi</td><td>latest</td><td>Headless CMS berbasis Node.js.</td></tr>
+      <tr><td>directus/directus</td><td>latest</td><td>CMS & API builder untuk SQL DB.</td></tr>
+      <tr><td>nextcloud</td><td>27</td><td>Self-hosted cloud storage.</td></tr>
+      <tr><td>onlyoffice/documentserver</td><td>latest</td><td>Office suite di browser.</td></tr>
+      <tr><td>collabora/code</td><td>latest</td><td>Online office berbasis LibreOffice.</td></tr>
+      <tr><td>minio/minio</td><td>latest</td><td>Object storage S3-compatible.</td></tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+<div class="category fade-in" style="--delay:0.2s" id="cat9">
+  <h2 class="category-title">🧠 9. AI, Machine Learning, Data Science</h2>
+  <div class="table-wrapper">
+  <table>
+    <thead>
+      <tr><th>Image</th><th>Tag</th><th>Fungsi</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>tensorflow/tensorflow</td><td>latest</td><td>Library deep learning dari Google.</td></tr>
+      <tr><td>pytorch/pytorch</td><td>latest</td><td>Deep learning dari Facebook (Meta).</td></tr>
+      <tr><td>huggingface/transformers-pytorch-gpu</td><td>latest</td><td>NLP model siap pakai.</td></tr>
+      <tr><td>mlflow/mlflow</td><td>latest</td><td>Tracking dan manajemen eksperimen ML.</td></tr>
+      <tr><td>jupyter/base-notebook</td><td>latest</td><td>Interactive Python notebook di browser.</td></tr>
+      <tr><td>apache/airflow</td><td>2.9</td><td>Scheduler untuk data pipeline/ML workflow.</td></tr>
+      <tr><td>dagster/dagster</td><td>latest</td><td>Modern orchestrator data pipelines.</td></tr>
+      <tr><td>metabase/metabase</td><td>latest</td><td>Business Intelligence & dashboard analytics.</td></tr>
+      <tr><td>superset</td><td>latest</td><td>Data exploration & dashboard dari Apache.</td></tr>
+      <tr><td>rayproject/ray</td><td>latest</td><td>Distributed computing untuk ML.</td></tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+<div class="category fade-in" style="--delay:0.2s" id="cat10">
+  <h2 class="category-title">🛠️ 10. Tools, UI & Helper</h2>
+  <div class="table-wrapper">
+  <table>
+    <thead>
+      <tr><th>Image</th><th>Tag</th><th>Fungsi</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>adminer</td><td>latest</td><td>UI database all-in-one.</td></tr>
+      <tr><td>phpmyadmin</td><td>latest</td><td>UI manajemen MySQL/MariaDB.</td></tr>
+      <tr><td>pgadmin</td><td>latest</td><td>UI PostgreSQL.</td></tr>
+      <tr><td>mongo-express</td><td>latest</td><td>UI MongoDB ringan.</td></tr>
+      <tr><td>alpine/git</td><td>latest</td><td>Git client di Alpine base.</td></tr>
+      <tr><td>node-red</td><td>latest</td><td>Visual programming untuk IoT & automation.</td></tr>
+      <tr><td>ngrok/ngrok</td><td>latest</td><td>Tunneling ke localhost dari internet.</td></tr>
+      <tr><td>vscodium/vscodium</td><td>latest</td><td>Open-source VSCode.</td></tr>
+      <tr><td>codercom/code-server</td><td>latest</td><td>Jalankan VSCode di browser.</td></tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
